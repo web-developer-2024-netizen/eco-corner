@@ -4,7 +4,7 @@ import { FaLeaf } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center px-20 fixed w-full z-40 bg-white shadow-md'>
+    <div data-aos-duration="1000" data-aos="fade-down" className='flex justify-between items-center px-20 fixed w-full z-40 bg-white shadow-md'>
       <Link href={'/#home'}>
         <div className='flex items-center gap-2 relative p-4 cursor-pointer'>
           <div className='bg-[#3c7c67] w-10 h-10 rounded-full text-white flex items-center justify-center'>

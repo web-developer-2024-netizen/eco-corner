@@ -6,7 +6,18 @@ import Footer from "../components/footer"
 import Aksiyalar from '../components/aksiyalar'
 import BizningIshlar from '../components/bizning-ishlar'
 
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
+
 const Page = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <div>
       <Navbar />
@@ -14,7 +25,7 @@ const Page = () => {
       <main>
         {/* HOME SECTION */}
         <div id="home" className='home-page'>
-          <div className="flex flex-col gap-4 text-center items-center relative z-10 justify-center min-h-[80vh] px-4">
+          <div  data-aos="fade-down" className="flex flex-col gap-4 text-center items-center relative z-10 justify-center min-h-[80vh] px-4">
             <div className="text-white">
               <h2 className="text-sm uppercase tracking-widest opacity-80 mb-2">
                 Barqaror turmush tarzi
@@ -34,12 +45,12 @@ const Page = () => {
         </div>
 
         {/* BIZNING ISHLAR SECTION */}
-        <div id="aksiyalar">
+        <div data-aos="fade-down" id="aksiyalar">
           <BizningIshlar />
         </div>
 
         {/* AKSIYALAR SECTION */}
-        <div id="targibotlar">
+        <div data-aos="fade-down" id="targibotlar">
           <Aksiyalar />
         </div>
       </main>
