@@ -11,10 +11,10 @@ const Footer = () => {
                 Maqsadimiz — foydalanuvchilarga sifatli xizmat ko`rsatish va doimiy rivojlanish uchun mustahkam muhit yaratish.
             </p>
             <button className='bg-white w-fit text-[#3c7c67] px-6 py-2 rounded-full font-bold hover:bg-green-100 duration-400'>Safimizga qo`shiling</button>
-            <FaLeaf className='absolute left-5 top-5 size-20 md:size-40 text-white/30 md:top-0 md:right-5 animate-bounce' />
-            <FaLeaf className='absolute right-5 bottom-5 size-20 md:size-40 text-white/30 md:bottom-0 md:right-5 rotate-90 animate-bounce' />
-            <FaLeaf className='absolute right-5 top-5 size-20 md:size-40 text-white/30 md:top-0 md:right-50 rotate-270 animate-bounce' />
-            <FaLeaf className='absolute bottom-5 left-5 size-20 md:size-40 text-white/30 md:bottom-0 md:right-50 rotate-180 animate-bounce' />
+            <FaLeaf className='absolute size-20 md:size-40 text-white/30 md:top-0 md:right-5 animate-bounce' />
+            <FaLeaf className='absolute size-20 md:size-40 text-white/30 md:bottom-0 md:right-5 rotate-90 animate-bounce' />
+            <FaLeaf className='absolute size-20 md:size-40 text-white/30 md:top-0 md:right-50 rotate-270 animate-bounce' />
+            <FaLeaf className='absolute size-20 md:size-40 text-white/30 md:bottom-0 md:right-50 rotate-180 animate-bounce' />
         </div>
     )
 }
