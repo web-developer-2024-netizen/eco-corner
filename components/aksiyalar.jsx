@@ -39,11 +39,13 @@ const Aksiyalar = () => {
                         </p>
                     </div>
                 </div>
+                <div className='flex justify-center md:block'>
                 <Link href={'/aksiyadaQatnashish'}>
                     <button className="mt-10 bg-white text-[#3c7c67] px-8 py-3 rounded-full font-bold hover:bg-green-100 transition">
                         Aksiyada qatnashish
                     </button>
                 </Link>
+                </div>
             </div>
 
         </div>

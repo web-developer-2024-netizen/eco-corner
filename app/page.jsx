@@ -45,12 +45,12 @@ const Page = () => {
         </div>
 
         {/* BIZNING ISHLAR SECTION */}
-        <div data-aos="fade-down" id="aksiyalar">
+        <div className='px-3 md:px-0' data-aos="fade-down" id="aksiyalar">
           <BizningIshlar />
         </div>
 
         {/* AKSIYALAR SECTION */}
-        <div data-aos="fade-down" id="targibotlar">
+        <div className='px-3 md:px-0' data-aos="fade-down" id="targibotlar">
           <Aksiyalar />
         </div>
       </main>

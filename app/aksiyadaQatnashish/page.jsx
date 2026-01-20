@@ -24,8 +24,7 @@ const Page = () => {
       <div className="home-page">
         <div className="flex flex-col pt-30 items-center justify-center min-h-[80vh] px-4 relative">
           <div className="bg-[#3c7c67] text-white rounded-2xl p-8 max-w-xl w-full">
-
-            <h1 className="text-3xl md:text-4xl font-bold text-center mb-4">
+            <h1 className="text-2xl md:text-4xl font-bold text-center mb-4">
               Aksiyada qatnashing
             </h1>
 
@@ -33,13 +32,12 @@ const Page = () => {
               Chiqindini topshiring, karta orqali pulingizni oling va
               tabiatni asrashga hissa qo‘shing.
             </p>
-
             {/* KARTA RASMI */}
             <div className="mb-6">
               <img
                 src="https://avatars.mds.yandex.net/i?id=da3d070c85d21daebcd4caab62f0375d76fafb31-4876380-images-thumbs&n=13"
                 alt="Kredit karta"
-                className="w-full object-cover h-70"
+                className="w-full object-cover md:h-70 h-40"
               />
             </div>
 
