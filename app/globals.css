@@ -14,9 +14,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,4 +34,23 @@ body {
 
 .green-text {
   color: #3c7c67;
+}
+
+.home-page {
+  background-image: url(https://images.delfi.lv/media-api-image-cropper/v1/a603cd5f-31b1-4891-9c26-9602df80776b.jpg?w=1200&h=628);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  position: relative;
+}
+
+.home-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.7));
 }
