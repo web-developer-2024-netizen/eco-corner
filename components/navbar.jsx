@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className='bg-[#3c7c67] w-10 h-10 rounded-full text-white flex items-center justify-center'>
             <FaLeaf size={20} />
           </div>
-          <h1 className='text-3xl font-bold text-black'>Eco Burchak</h1>
+          <h1 className='text-3xl font-bold text-black'>Eco Life</h1>
         </div>
       </Link>
 
